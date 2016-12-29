@@ -1,0 +1,17 @@
+.hint{
+  border: 1px solid #eee;
+  width: 120px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 7px;
+  position:absolute;
+  left: 100%;
+  top:0;
+  display: none;
+}
+.playground{
+  width: 150px;
+  margin: 20vh auto 0;
+  /* border: 1px solid gray; */
+  position:relative;
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-1.6.4.js"></script>
+<script>
+    $().ready(function(){
+  $("input").mouseover(function(){$(".hint").css("display","block");});
+  $("input").mouseout(function(){$(".hint").css("display","none");});
+  
+  
+})
+    
+</script>
+
+<div class="playground">
+  <input type="text"></input>
+  <div class="hint">hello web:)!</div>
+</div>
+
+
+</body>
+</html>
